@@ -1,5 +1,5 @@
 //
-//  ViewController.h
+//  testView.h
 //  testClass02
 //
 //  Created by 廖京辉 on 15/9/21.
@@ -7,9 +7,7 @@
 //
 
 #import <UIKit/UIKit.h>
-#import "testView.h"
-@interface ViewController : UIViewController
 
-//@property (nonatomic,strong) testView *tview;
+@interface testView : UIView
+@property (nonatomic,strong) UIView * cView;
 @end
-
